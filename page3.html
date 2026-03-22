@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Web入門</title>
+	<link rel="stylesheet" href="sample.css">
+</head>
+<body>
+	<header>
+	<h1>Web入門</h1>
+	<nav>
+	<ul>
+	<li><a href="sample_pdf.html">このサイトについて1</a></li>
+	<li>このサイトについて2</li>
+	</ul>
+	</nav>
+	</header>
+	<article>
+	<section>
+	<h2>HTML入門</h2>
+	<div class="inner">
+	<p>このページではHEMLについて紹介します.</p>
+	</div>
+	<button id="btn">申し込む</button>
+	</section>
+	</article>
+	<footer>
+	<p>Copyright (c) 2026 The Example Company</p>
+	</footer>
+	<script>
+		const btn = document.getElementById("btn")
+		btn.addEventListener("click", function(){
+  		alert("送信してよろしいですか？");
+		})
+	</script>
+</body>
+</html>
